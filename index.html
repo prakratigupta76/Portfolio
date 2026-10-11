@@ -1,161 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prakrati Gupta | Data Scientist & AI/ML Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Prakrati Gupta | Associate Analyst · Python Automation &amp; AI</title>
+    <meta name="description" content="Portfolio of Prakrati Gupta: Python automation, AI and machine learning projects, experience and skills.">
+    <meta name="theme-color" content="#0a0c11">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 
 <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div id="progress" aria-hidden="true"></div>
 
     <!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="logo">PG</div>
-        <ul>
-            <li><a href="#work">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="assets/Prakrati_Gupta_Resume.pdf" target="_blank" class="resume-link">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button id="darkToggle">🌙</button>
-    </nav>
-
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>
-                Hi, I'm <span>Prakrati Gupta</span><br>
-                <span class="title-role">Data Analyst & AI/ML Enthusiast</span>
-                <!-- <span class="title-role">Data Analyst | Aspiring Data Scientist | AI/ML Enthusiast</span> -->
-            </h1>
-            <p>
-                Transforming raw data into actionable insights through advanced analytics and machine learning.
-                Passionate about building intelligent systems and driving data-informed decisions.
-            </p>
-            <div class="hero-cta">
-                <a href="#work" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-            </div>
-            <div class="hero-stats">
-                <div class="hero-stat">
-                    <h3>5+</h3>
-                    <p>Projects</p>
-                </div>
-                <div class="hero-stat">
-                    <h3>2+</h3>
-                    <p>Years Experience</p>
-                </div>
-                <div class="hero-stat">
-                    <h3>5+</h3>
-                    <p>Skills</p>
-                </div>
+    <header class="site-header">
+        <div class="wrap bar">
+            <a class="logo" href="#top" aria-label="Prakrati Gupta, back to top"><i></i>Prakrati Gupta</a>
+            <nav id="nav" aria-label="Primary">
+                <ul>
+                    <li><a href="#work">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="tools">
+                <button class="icon-btn" id="darkToggle" type="button" aria-pressed="true" aria-label="Switch to light theme">&#9790;</button>
+                <button class="icon-btn" id="menuToggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">&#9776;</button>
             </div>
         </div>
-        <div class="hero-visual">
+    </header>
 
-            <div class="gradient-glow"></div>
-        
-            <img src="assets/prakrati.jpeg" 
-                 alt="Prakrati Gupta" 
-                 class="hero-image">
-        
-        </div>
-    </section>
-
-    <!-- SKILLS SECTION -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <p class="section-subtitle">Technologies and tools I work with</p>
-            
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">Core Java</span>
+    <main id="main">
+        <!-- HERO SECTION -->
+        <section class="hero" id="top">
+            <div class="wrap hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow">Associate Analyst &middot; Infosys</p>
+                    <h1>
+                        Hi, I'm <span>Prakrati Gupta</span><br>
+                        <span class="title-role">Associate Analyst &middot; Python Automation &amp; AI</span>
+                    </h1>
+                    <p class="hero-text">
+                        I'm an Associate Analyst working at the intersection of software development, AI/ML and automation.
+                        I build Python-based automation and machine learning solutions, backed by a strong foundation in statistics,
+                        and I'm passionate about building intelligent systems that solve real business problems.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#work" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        <a href="assets/prakrati_latest_resume.pdf" target="_blank" rel="noopener" class="btn btn-secondary">Resume<span class="sr"> (PDF, opens in new tab)</span></a>
                     </div>
+                    <ul class="hero-stats">
+                        <li><strong>5+</strong><span>Projects</span></li>
+                        <li><strong>5+</strong><span>Skills</span></li>
+                    </ul>
                 </div>
-
-                <div class="skill-category">
-                    <h3>Data Analysis & Visualization</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Excel</span>
-                        <span class="skill-tag">Power BI</span>
-                        <span class="skill-tag">SPSS</span>
-                        <span class="skill-tag">Matplotlib</span>
-                        <span class="skill-tag">Seaborn</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Machine Learning</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Scikit-learn</span>
-                        <span class="skill-tag">Regression Models</span>
-                        <span class="skill-tag">Random Forest</span>
-                        <span class="skill-tag">Support Vector Machine</span>
-                        <span class="skill-tag">Logistic Regression</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Data Science Techniques</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Data Cleaning</span>
-                        <span class="skill-tag">EDA</span>
-                        <span class="skill-tag">Feature Engineering</span>
-                        <span class="skill-tag">Predictive Modeling</span>
-                        <span class="skill-tag">Statistical Analysis</span>
-                        <span class="skill-tag">Forecasting</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Libraries & Tools</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">NumPy</span>
-                        <span class="skill-tag">Power Query</span>
-                        <span class="skill-tag">ETL Pipelines</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Soft Skills</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Analytical Thinking</span>
-                        <span class="skill-tag">Problem Solving</span>
-                        <span class="skill-tag">Team Collaboration</span>
-                        <span class="skill-tag">Stakeholder Communication</span>
-                    </div>
+                <div class="hero-visual">
+                    <img src="assets/prakrati.jpeg" alt="Prakrati Gupta" class="hero-image" width="340" height="340">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- EXPERIENCE SECTION -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2>Professional Experience</h2>
-            <p class="section-subtitle">My journey in data science and AI</p>
-            
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
+        <!-- RIGHT NOW (from Direction B) -->
+        <section id="now" class="section now-section" aria-labelledby="now-h">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <p class="kicker">Right now</p>
+                    <h2 id="now-h">What I'm working on</h2>
+                </header>
+                <div class="now-grid">
+                    <article class="card reveal">
+                        <p class="kicker">Building</p>
+                        <h3>Automation tool for an existing business process</h3>
+                        <p>Python for application logic, Selenium for browser automation, Azure OpenAI for AI-related functionality, and an HTML/CSS front end.</p>
+                        <ul class="tags"><li>Python</li><li>Selenium</li><li>Azure OpenAI</li><li>HTML/CSS</li></ul>
+                    </article>
+                    <article class="card reveal">
+                        <p class="kicker">Learning</p>
+                        <h3>AI and Generative AI</h3>
+                        <p>Actively learning and exploring AI and Generative AI.</p>
+                        <ul class="tags"><li>AI</li><li>Generative AI</li></ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="work" class="section" aria-labelledby="work-h">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <p class="kicker">01</p>
+                    <h2 id="work-h">Featured Projects</h2>
+                    <p class="section-subtitle">Showcasing my data science and AI/ML expertise</p>
+                </header>
+
+                <div class="filters reveal" id="filters" role="group" aria-label="Filter projects"></div>
+                <div id="featured" class="featured-slot"></div>
+                <div class="projects-grid" id="projectsGrid" aria-live="polite"></div>
+                <noscript><p class="noscript">Projects are listed on <a href="https://github.com/prakratigupta76" target="_blank" rel="noopener">my GitHub profile</a>. Enable JavaScript to browse them here.</p></noscript>
+
+                <p class="github-link reveal">Explore all my projects on <a href="https://github.com/prakratigupta76" target="_blank" rel="noopener">GitHub<span class="sr"> (opens in new tab)</span></a></p>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="section alt" aria-labelledby="exp-h">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <p class="kicker">02</p>
+                    <h2 id="exp-h">Professional Experience</h2>
+                    <p class="section-subtitle">My journey in data science and AI</p>
+                </header>
+
+                <div class="timeline">
+                    <article class="timeline-item card reveal">
+                        <div class="timeline-header">
+                            <h3>Associate Analyst</h3>
+                            <span class="company">Infosys BPM</span>
+                        </div>
+                        <p class="timeline-period">Aug 2026 &ndash; Present</p>
+                        <ul>
+                            <li>Working within the AI &amp; Automation function, applying Python, SQL, and VBA to build automation solutions and support data-driven workflows</li>
+                            <li>Currently working hands-on as a developer on automation, covering application logic, browser automation, the front end, and AI integration</li>
+                            <li>Writing and optimizing SQL queries to extract, transform, and report on business data in support of ongoing automation and AI initiatives</li>
+                        </ul>
+                    </article>
+
+                    <article class="timeline-item card reveal">
                         <div class="timeline-header">
                             <h3>Artificial Intelligence Intern</h3>
                             <span class="company">Infosys Limited</span>
                         </div>
-                        <p class="timeline-period">July 2025 – Present</p>
+                        <p class="timeline-period">Jul 2025 &ndash; Jul 2026</p>
                         <ul>
                             <li>Designed, built, and validated AI/ML models using Python to address real-world business use cases</li>
                             <li>Performed data preprocessing, feature engineering, model training, and evaluation to improve model accuracy and reliability</li>
@@ -163,199 +147,173 @@
                             <li>Developed and executed test cases and validation processes to ensure model quality and performance</li>
                             <li>Actively participated in structured training programs to strengthen skills in ML, data analysis, and software development</li>
                         </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section" aria-labelledby="skills-h">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <p class="kicker">03</p>
+                    <h2 id="skills-h">Technical Skills</h2>
+                    <p class="section-subtitle">Technologies and tools I work with</p>
+                </header>
+
+                <div class="skills-grid">
+                    <div class="skill-category card reveal">
+                        <h3>Programming Languages</h3>
+                        <ul class="tags"><li>Python</li><li>SQL</li><li>Core Java</li><li>VBA</li><li>HTML/CSS</li></ul>
+                    </div>
+                    <div class="skill-category card reveal">
+                        <h3>Data Analysis &amp; Visualization</h3>
+                        <ul class="tags"><li>Excel</li><li>Power BI</li><li>SPSS</li><li>Matplotlib</li><li>Seaborn</li></ul>
+                    </div>
+                    <div class="skill-category card reveal">
+                        <h3>Machine Learning</h3>
+                        <ul class="tags"><li>Scikit-learn</li><li>Regression Models</li><li>Random Forest</li><li>Support Vector Machine</li><li>Logistic Regression</li><li>XGBoost</li><li>Linear Regression</li><li>Decision Trees</li></ul>
+                    </div>
+                    <div class="skill-category card reveal">
+                        <h3>Data Science Techniques</h3>
+                        <ul class="tags"><li>Data Cleaning</li><li>EDA</li><li>Feature Engineering</li><li>Predictive Modeling</li><li>Statistical Analysis</li><li>Forecasting</li><li>Hypothesis Testing</li></ul>
+                    </div>
+                    <div class="skill-category card reveal">
+                        <h3>Libraries &amp; Tools</h3>
+                        <ul class="tags"><li>Pandas</li><li>NumPy</li><li>Power Query</li><li>ETL Pipelines</li><li>Selenium</li><li>Streamlit</li><li>Azure OpenAI</li></ul>
+                    </div>
+                    <div class="skill-category card reveal">
+                        <h3>Soft Skills</h3>
+                        <ul class="tags"><li>Analytical Thinking</li><li>Problem Solving</li><li>Team Collaboration</li><li>Stakeholder Communication</li></ul>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Research Clerical</h3>
-                            <span class="company">MP Research Work</span>
-                        </div>
-                        <p class="timeline-period">Sep 2023 – Dec 2024</p>
-                        <ul>
-                            <li>Managed and optimized research data workflows using Excel and CRM tools, reducing manual data errors by 25%</li>
-                            <li>Gathered and analyzed research requirements, delivering statistical insights through SPSS and Excel</li>
-                            <li>Supported thesis development and decision-making through comprehensive data analysis</li>
-                            <li>Collaborated with researchers and stakeholders to ensure data accuracy, consistency, and reporting quality</li>
-                        </ul>
+        <!-- EDUCATION SECTION -->
+        <section id="education" class="section alt" aria-labelledby="edu-h">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <p class="kicker">04</p>
+                    <h2 id="edu-h">Education &amp; Certifications</h2>
+                    <p class="section-subtitle">Academic background and professional development</p>
+                </header>
+
+                <div class="education-grid">
+                    <article class="education-card card reveal">
+                        <h3>M.Sc. in Statistics</h3>
+                        <p class="institution">Dr. Bhimrao Ambedkar University, Agra</p>
+                        <p class="period">2021 &ndash; 2023</p>
+                        <p class="description">Advanced statistical methods and data analysis</p>
+                    </article>
+                    <article class="education-card card reveal">
+                        <h3>B.Sc. in Physics, Statistics &amp; Mathematics</h3>
+                        <p class="institution">Dr. Bhimrao Ambedkar University, Agra</p>
+                        <p class="period">2018 &ndash; 2021</p>
+                        <p class="description">Strong foundation in quantitative sciences</p>
+                    </article>
+                    <article class="education-card card reveal">
+                        <h3>Microsoft Power BI Data Analyst Certificate</h3>
+                        <p class="institution">Microsoft</p>
+                        <p class="period">2023</p>
+                        <p class="description">Professional data visualization and analytics</p>
+                    </article>
+                    <article class="education-card card reveal">
+                        <h3>IBM Data Visualization and Dashboards</h3>
+                        <p class="institution">IBM</p>
+                        <p class="period">2023</p>
+                        <p class="description">Excel, Cognos, and advanced BI tools</p>
+                    </article>
+                    <article class="education-card card reveal">
+                        <h3>Complete Data Science Bootcamp</h3>
+                        <p class="institution">Udemy</p>
+                        <p class="period">2023</p>
+                        <p class="description">Python, Machine Learning, and practical projects</p>
+                    </article>
+                    <article class="education-card card reveal">
+                        <h3>Explore Machine Learning Using Python</h3>
+                        <p class="institution">Infosys Springboard</p>
+                        <p class="period">2024</p>
+                        <p class="description">ML algorithms, data analysis, and real-world applications</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS SECTION -->
+        <section class="section" id="achievements" aria-labelledby="ach-h">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <p class="kicker">05</p>
+                    <h2 id="ach-h">Key Achievements</h2>
+                </header>
+                <div class="achievements-grid">
+                    <div class="achievement-card card reveal">
+                        <div class="achievement-number">0.822</div>
+                        <p>AUC Score</p>
+                        <small>Heart Attack Risk Prediction (Excel logistic model)</small>
+                    </div>
+                    <div class="achievement-card card reveal">
+                        <div class="achievement-number">18%</div>
+                        <p>Accuracy Improvement</p>
+                        <small>Car Price Forecasting</small>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- EDUCATION SECTION -->
-    <section id="education" class="education">
-        <div class="container">
-            <h2>Education & Certifications</h2>
-            <p class="section-subtitle">Academic background and professional development</p>
-            
-            <div class="education-grid">
-                <div class="education-card">
-                    <div class="education-icon">🎓</div>
-                    <h3>M.Sc. in Statistics</h3>
-                    <p class="institution">Dr. Bhimrao Ambedkar University, Agra</p>
-                    <p class="timeline">2021 – 2023</p>
-                    <p class="description">Advanced statistical methods and data analysis</p>
-                </div>
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section alt" aria-labelledby="contact-h">
+            <div class="wrap">
+                <header class="section-head reveal">
+                    <p class="kicker">06</p>
+                    <h2 id="contact-h">Let's Connect</h2>
+                    <p class="section-subtitle">I'm open to collaborations and exciting data science opportunities</p>
+                </header>
 
-                <div class="education-card">
-                    <div class="education-icon">📚</div>
-                    <h3>B.Sc. in Physics, Statistics & Mathematics</h3>
-                    <p class="institution">Dr. Bhimrao Ambedkar University, Agra</p>
-                    <p class="timeline">2018 – 2021</p>
-                    <p class="description">Strong foundation in quantitative sciences</p>
-                </div>
-
-                <div class="education-card">
-                    <div class="education-icon">📊</div>
-                    <h3>Microsoft Power BI Data Analyst Certificate</h3>
-                    <p class="institution">Microsoft</p>
-                    <p class="timeline">2023</p>
-                    <p class="description">Professional data visualization and analytics</p>
-                </div>
-
-                <div class="education-card">
-                    <div class="education-icon">💻</div>
-                    <h3>IBM Data Visualization and Dashboards</h3>
-                    <p class="institution">IBM</p>
-                    <p class="timeline">2023</p>
-                    <p class="description">Excel, Cognos, and advanced BI tools</p>
-                </div>
-
-                <div class="education-card">
-                    <div class="education-icon">🤖</div>
-                    <h3>Complete Data Science Bootcamp</h3>
-                    <p class="institution">Udemy</p>
-                    <p class="timeline">2023</p>
-                    <p class="description">Python, Machine Learning, and practical projects</p>
-                </div>
-
-                <div class="education-card">
-                    <div class="education-icon">⭐</div>
-                    <h3>Explore Machine Learning Using Python</h3>
-                    <p class="institution">Infosys Springboard</p>
-                    <p class="timeline">2024</p>
-                    <p class="description">ML algorithms, data analysis, and real-world applications</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PROJECTS SECTION -->
-    <section id="work" class="work">
-        <div class="container">
-            <h2>Featured Projects</h2>
-            <p class="section-subtitle">Showcasing my data science and AI/ML expertise</p>
-            
-            <div class="filters">
-                <button data-filter="all" class="active">All</button>
-                <button data-filter="ml">Machine Learning</button>
-                <button data-filter="analysis">Data Analysis</button>
-                <button data-filter="prediction">Prediction</button>
-            </div>
-
-            <div class="projects-grid" id="projectsGrid"></div>
-            
-            <div class="github-link">
-                <p>Explore all my projects on <a href="https://github.com/prakratigupta76" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ACHIEVEMENTS SECTION -->
-    <section class="achievements">
-        <div class="container">
-            <h2>Key Achievements</h2>
-            <div class="achievements-grid">
-                <div class="achievement-card">
-                    <div class="achievement-number">0.822</div>
-                    <p>AUC Score</p>
-                    <small>Heart Attack Risk Prediction</small>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-number">18%</div>
-                    <p>Accuracy Improvement</p>
-                    <small>Car Price Forecasting</small>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-number">31%</div>
-                    <p>Bounce Rate Reduction</p>
-                    <small>Email Deliverability</small>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-number">25%</div>
-                    <p>Error Reduction</p>
-                    <small>Data Management</small>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Let's Connect</h2>
-            <p class="section-subtitle">I'm open to collaborations and exciting data science opportunities</p>
-            
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item card reveal">
                             <h3>Email</h3>
                             <a href="mailto:prakratigupta76@gmail.com">prakratigupta76@gmail.com</a>
                         </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
+                        <div class="contact-item card reveal">
                             <h3>Location</h3>
                             <p>India</p>
                         </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fa-solid fa-phone"></i>
-                        <div> 
-                            <h3>Phone</h3> 
+                        <div class="contact-item card reveal">
+                            <h3>Phone</h3>
                             <a href="tel:+918077021259">Call me</a>
                         </div>
                     </div>
-                </div>
-
-                <div class="contact-links">
-                    <a href="https://github.com/prakratigupta76" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                    <a href="https://linkedin.com/in/prakratigupta76" target="_blank" class="social-link">
-                        <i class="fab fa-linkedin"></i> LinkedIn
-                    </a>
-
-                    <a href="mailto:prakratigupta76@gmail.com" class="social-link">
-                        <i class="fas fa-envelope"></i> Email
-                    </a>
+                    <div class="contact-links">
+                        <a href="https://github.com/prakratigupta76" target="_blank" rel="noopener" class="social-link card reveal">
+                            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>GitHub<span class="sr"> (opens in new tab)</span>
+                        </a>
+                        <a href="https://linkedin.com/in/prakratigupta76" target="_blank" rel="noopener" class="social-link card reveal">
+                            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.5h4V21H3V9.5Zm6.5 0h3.8v1.6h.06c.53-1 1.83-2.06 3.76-2.06 4.02 0 4.78 2.64 4.78 6.08V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.69V21h-4V9.5Z"/></svg>LinkedIn<span class="sr"> (opens in new tab)</span>
+                        </a>
+                        <a href="https://leetcode.com/u/prakratig0128/" target="_blank" rel="noopener" class="social-link card reveal">
+                            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5M13.5 5l-3 14"/></svg>LeetCode<span class="sr"> (opens in new tab)</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Prakrati Gupta. All rights reserved. | Data Scientist & AI/ML Engineer</p>
+        <div class="wrap footer-row">
+            <p>&copy; 2026 Prakrati Gupta. All rights reserved. | Associate Analyst &middot; Python Automation &amp; AI</p>
             <div class="footer-links">
-                <a href="assets/Prakrati_Gupta_Resume.pdf" target="_blank">Download Resume</a>
-                <a href="https://github.com/prakratigupta76" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/prakratigupta76" target="_blank">LinkedIn</a>
+                <a href="#top">Back to top</a>
             </div>
         </div>
     </footer>
 
     <script src="projects-data.js"></script>
     <script src="script.js"></script>
-
 </body>
 
 </html>
